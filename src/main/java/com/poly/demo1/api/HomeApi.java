@@ -1,5 +1,6 @@
 package com.poly.demo1.api;
 
+import com.poly.demo1.entity.Student;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -30,4 +31,7 @@ public class HomeApi {
     }
 
     //TRUYEN DU LIEU: PARAM, PATHVARIABLE, OBJECT; GET, POST
+    //Get - 2048: Phương thức get chỉ nhận 2048 ký tự
+    //Post - n: Không có giới hạn.
+    //OOP - Object Oriented Programing = properties + methods.
 }
