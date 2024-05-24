@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Component
+@Component //Đánh dấu 1 class là 1 bean.
 public class SchoolInformation {
     private String fullName = "FPT Polytechnic - Beans";
     private String location = "TP HCM";

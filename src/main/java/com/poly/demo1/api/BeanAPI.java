@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/java5-b4/bean")
 public class BeanAPI {
     @Autowired
-    @Qualifier("SchoolInformationConfig")
+    @Qualifier("SchoolInformationConfig") //Được sử dụng để chỉ định rõ ràng bean nào sẽ được sử dụng khi có nhiều bean cùng loại.
     SchoolInformation schoolInformation;
     @GetMapping("/getSchoolInformation")
     public ResponseEntity<?> getSchoolInformation() {
